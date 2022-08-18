@@ -56,3 +56,34 @@ int main() {
 }
 ```
 
+## for
+
+```c++
+# include <iostream>
+
+int main() {
+    int sum = 0;
+    for (int val = 1; val < 10; ++val) 
+        sum += val;
+    std::cout << "Sum of 1 to 10 is " << sum << std::endl;
+    return 0;
+}
+```
+
+```c++
+
+#include <iostream>
+
+int main() {
+    int sum = 0, val = 0;
+    while (std::cin >> val)
+        sum += val;
+    std::cout << "Sum is " << sum << std::endl;
+    return 0;
+}
+// mac ctrl+d 退出
+```
+
+
+
+
